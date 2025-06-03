@@ -1,0 +1,82 @@
+.top-container {
+  position: relative;
+  height: 100vh;
+  width: 99vw;
+ /*  background-color: #e7f9f6;  */
+  overflow: hidden;
+}
+
+.top-container img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 60%;
+  margin-bottom: 5%;
+}
+.title-text{
+    color: #0F822F;
+    
+
+}
+.pro{
+    text-decoration:underline;
+}
+h1{
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 8%;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+      font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.progress-bar{
+  width: 85% !important;  /* this "!important" means it will overrise any bootstrap or 3rd party to implement thsi (altough iske bina bhi kaam chalega yahan) */
+}
+
+.svg-inline--fa{
+    width: 32px;
+    height: 32px;
+    fill: #555;
+}
+
+
+.resume-float-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.resume-btn {
+  display: inline-block;
+  margin: 5px 0 30px 0; /* spacing above and below */
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #0056b3;
+}
+#psk{
+    text-align: center;
+}
